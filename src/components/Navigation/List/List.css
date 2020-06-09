@@ -1,0 +1,38 @@
+.List {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: #ffffff;
+	color: #000000;
+	width: 80%;
+	max-width: 400px;
+	padding: 20px 10px;
+	box-sizing: border-box;
+	transform: translateX(0px);
+	transition: 0.2s ease-in;
+	z-index: 90;
+}
+.List.close {
+	transform: translateX(-400px);
+}
+.List ul {
+	list-style: none;
+}
+.List ul li {
+	margin-bottom: 15px;
+}
+.List ul li a {
+	color: #363d54;
+	font-size: 40px;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 0 20px 10px 20px;
+	opacity: 1;
+	transition: 0.3s ease-in;
+}
+
+.List ul li a:hover {
+	opacity: 0.7;
+}

@@ -1,0 +1,16 @@
+.Menu {
+	position: fixed;
+	top: 40px;
+	left: 40px;
+	font-size: 42px;
+	cursor: pointer;
+	color: #fff;
+	z-index: 100;
+	transition: all 0.2s ease-in;
+}
+.Menu:hover {
+	opacity: 0.7;
+}
+.Menu.open {
+	left: 420px;
+}
